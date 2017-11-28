@@ -41,4 +41,4 @@ region_thresholds = ((yy > fit_left[0]*xx + fit_left[1] - 10) & (yy < fit_left[0
 img_tick_copy[region_thresholds, :] = 0
 
 plt.imshow(img_tick_copy)
-plt.show()	
+plt.savefig('herbTick.png')
